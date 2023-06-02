@@ -2,7 +2,9 @@
 const fs = require('fs');
 const { prompt } = require('inquirer');
 
+
 // TODO: Create an array of questions for user input
+
 const questions = [
     {
         type: "input",
@@ -63,11 +65,39 @@ const questions = [
     },
 ];
 
+const generateHtml = (data) => {
+    return `<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header style='color:white; background-color:${data.color}'>
+            <h1>${data.name}</h1>
+        
+    </body>
+    </html>`
+}
+
+
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return fs.writeFilesync(path.join(process.cwd().fileName).data);
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    prompt(questions)
+    .then((answers) => {
+    const document = generateHtml(answers);
+    fs.writeFile('index.html', document, (err) =>
+        err ? console.log(err) : console.log('Success!'))
+    });
+}
 
 // Function call to initialize app
 init();
