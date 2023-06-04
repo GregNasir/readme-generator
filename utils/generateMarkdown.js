@@ -19,9 +19,26 @@ ${renderLicenseBadge(data.license)}
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#contributing)
+* [Contributing](#Contributing)
 * [Tests](#tests)
-
+* [Questions](#questions)
+* [License](#license)
+${renderLicenseLink(data.license)} 
+## Description
+${data.description}
+## Installation
+${data.installation}
+## Usage
+${data.usage}
+## Contributing
+${data.contributing}
+## Tests
+${data.tests}
+## Questions
+* GitHub: ${data.github}(https://gitbub.com/${data.github})
+* Email: ${data.email}
+## License
+${renderLicenseSection(data.license)}
 `;
 }
 
