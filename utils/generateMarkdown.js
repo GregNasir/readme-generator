@@ -1,9 +1,9 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// If there is no license, an empty string is returned
 function renderLicenseBadge(license) {
   switch (license) {
     case 'MIT':
-      return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+      return '[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)';
     case 'Apache 2.0':
       return '[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
     case 'GPLv3':
@@ -15,15 +15,49 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+// function that returns the license link
+function renderLicenseLink(license) {
+  switch (license) {
+    case 'MIT':
+      return 'https://shields.io/licenses/MIT';
+    case 'Apache 2.0':
+      return 'https://shields.io/licenses/Apache-2.0';
+    case 'GPLv3':
+      return 'https://shields.io/licenses/GPLv3';
+
+
+    default:
+      return '';
+  }
+}
 
 // TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+// If there is no license, an empty string is returned
+function renderLicenseSection(license) {
+  switch (license) {
+    case 'MIT':
+      return `
+## License
 
-// TODO: Create a function to generate markdown for README
+This project is licensed under the [MIT License](https://shields.io/licenses/MIT).`;
+    case 'Apache 2.0':
+      return `
+## License
+
+This project is licensed under the [Apache License 2.0](https://shields.io/licenses/Apache-2.0).`;
+    case 'GPLv3':
+      return `
+## License
+
+This project is licensed under the [GNU General Public License v3.0](https://sheilds.io/licenses/gpl-3.0).`;
+    
+
+    default:
+      return '';
+  }
+}
+
+// Generatea markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 by ${data.name}
@@ -48,7 +82,7 @@ ${data.contributing}
 ## Tests
 ${data.tests}
 ## Questions
-* GitHub: ${data.github}(https://gitbub.com/${data.github})
+* GitHub: ${data.github}(https://github.com/${data.github})
 * Email: ${data.email}
 ## License
 ${renderLicenseSection(data.license)}

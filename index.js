@@ -12,40 +12,40 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "Please name your Project",
+        message: "Please name your Project:",
     },
     {
         type: "input",
         name: "description",
-        message: "Please describe your project and how its functionality.",
+        message: "Please describe your project and how its functionality:",
     },
     
     {
         type: "input",
         name: "installation",
-        message: "Describe the installation process.",
+        message: "Describe the installation process:",
     },
     {
         type: "input",
         name: "usage",
-        message: "What languages or technologies were used and the purpose of this project.",
+        message: "What languages or technologies were used and the purpose of this project:",
     },
     {
         type: "checkbox",
         name: "license",
-        message: "Please select a license applicable to this project.",
-        choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD3", "none"],
+        message: "Please select a license applicable to this project:",
+        choices: ["MIT", "APACHE2.0", "GPLv3", "none"],
     },
     {
         type: "input",
         name: "Contributing",
-        message: "Who are the contributors to this project (GitHub usernames)",
+        message: "Who are the contributors to this project (GitHub usernames):",
         default: "",
     },
     {
         type: "input",
         name: "Tests",
-        message: "what tests were ran during development",
+        message: "what tests were ran during development:",
     },
     {
         type: "input",
@@ -55,19 +55,19 @@ const questions = [
     {
         type: "input",
         name: "name",
-        message: "Your full name",
+        message: "Your full name:",
     },
     {
         type: "input",
         name: "email",
-        message: "Provide your email.",
+        message: "Provide your email:",
     },
 ];
 
 function writeToFile(fileName, data) {
     const filePath = path.join(process.cwd(), fileName);
     fs.writeFileSync(filePath, data);
-  }
+    }
 
 // function to initialize app
 function init() {
