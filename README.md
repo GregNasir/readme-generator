@@ -16,6 +16,9 @@ by Gregory Williams </br>
 This README generator will help developers to save time and get the opporutunity to focus on writing code for their projects. The generator can recieve input from the command line, and after which, with the help of the inquirer module, produces a professional README.
 ## Repository and demo
 * [README.md repository](https://github.com/GregNasir/readme-generator)
+https://github.com/GregNasir/readme-generator/assets/63434657/5308a2f3-170c-43fc-87eb-95516b58694c
+
+
 ## Installation
 After accessing the repositry for this procect, and cloning the code, a developer will be able to use their command line to quickly produce a proferssional README by following the prompts and entering information requested.
 ## Usage
