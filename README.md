@@ -1,6 +1,6 @@
-# README generator
-by Gregory Williams
-undefined
+# kdkdk
+by kdkd
+![Github MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
@@ -9,18 +9,22 @@ undefined
 * [Tests](#tests)
 * [Questions](#questions)
 * [License](#license)
-undefined 
+
 ## Description
-Creates professional readme
+kdkdk
 ## Installation
-inquirer and markdown
+kdkdk
 ## Usage
-JavaScript and Node
+kdkdk
 ## Contributing
 undefined
 ## Tests
 undefined
 ## Questions
-* GitHub: GregNasir(https://gitbub.com/GregNasir)
+* GitHub: kdkd(https://github.com/kdkd)
+* Email: kdkkd
 ## License
-undefined
+*This is licensed under the 
+## License
+
+This project is licensed under the ![MIT License](https://opensource.org/licenses/MIT).
