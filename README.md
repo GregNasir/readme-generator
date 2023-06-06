@@ -26,11 +26,11 @@ This README generator will help developers to save time and get the opporutunity
 ## Installation
 After accessing the repositry for this procect, and cloning the code, a developer will be able to use their command line to quickly produce a proferssional README by following the prompts and entering information requested.
 ## Usage
-JavaScript and node.js, along with the module extentions available.
+JavaScript and node.js, along with the module extentions available were used to create, this professional README generator
 ## Contributing
-undefined
+n/a
 ## Tests
-undefined
+npm tests
 ## Credits
 * Columbia Engineering Bootcamp resources
 * [w3schools website](https://w3schools.com/)
