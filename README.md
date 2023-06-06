@@ -20,7 +20,7 @@ This README generator will help developers to save time and get the opporutunity
 
 
 
-* < src="https://github.com/GregNasir/readme-generator/assets/63434657/bc7a2a15-ffc0-4400-bbf0-32a1b0da6f50"/>
+* <video src="https://github.com/GregNasir/readme-generator/assets/63434657/bc7a2a15-ffc0-4400-bbf0-32a1b0da6f50"/>
 
 
 ## Installation
