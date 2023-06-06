@@ -37,7 +37,7 @@ npm tests
 * [shield.io](https://shields.io/)
 ## Questions
 * GitHub: (https://github.com/GregNasir)
-* Email: Gregory Williams
+* Email: gregoryo.rwilliams@gmail.com
 
 ## License
 
