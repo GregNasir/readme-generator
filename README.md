@@ -1,5 +1,5 @@
 # kdkdk
-by kdkd
+by kdkdk </br>
 ![Github MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Table of Contents
 * [Description](#description)
@@ -11,20 +11,20 @@ by kdkd
 * [License](#license)
 
 ## Description
-kdkdk
+dkkdkd
 ## Installation
 kdkdk
 ## Usage
-kdkdk
+kdkd
 ## Contributing
 undefined
 ## Tests
 undefined
 ## Questions
-* GitHub: kdkd(https://github.com/kdkd)
+* GitHub: kdkdk(https://github.com/kdkdk)
 * Email: kdkkd
 ## License
-*This is licensed under the 
+*
 ## License
 
-This project is licensed under the ![MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)

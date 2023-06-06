@@ -48,17 +48,19 @@ function renderLicenseSection(license) {
       return `
 ## License
 
-This project is licensed under the ![MIT License](https://opensource.org/licenses/MIT).`;
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)`;
+
     case 'apache2.0':
       return `
 ## License
 
-This project is licensed under the ![Apache License 2.0](https://opensource.org/licenses/Apache-2.0).`;
+This project is licensed under the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).`;
+
     case 'gplv3':
       return `
 ## License
 
-This project is licensed under the ![GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0).`;
+This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0).`;
     
 
     default:
@@ -71,7 +73,7 @@ function generateMarkdown(data) {
   // const { title, name, license, description, installation, usage, contributing, tests, github, email } = data;
 
   return `# ${data.title}
-by ${data.name}
+by ${data.name} </br>
 ${renderLicenseBadge(data.license)}
 ## Table of Contents
 * [Description](#description)
@@ -96,7 +98,7 @@ ${data.tests}
 * GitHub: ${data.github}(https://github.com/${data.github})
 * Email: ${data.email}
 ## License
-*This is licensed under the ${renderLicenseSection(data.license)}
+*${renderLicenseSection(data.license)}
 `;
 }
 
