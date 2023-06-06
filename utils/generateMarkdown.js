@@ -77,15 +77,19 @@ by ${data.name} </br>
 ${renderLicenseBadge(data.license)}
 ## Table of Contents
 * [Description](#description)
+* [Repository and demo](#repository-and-demo)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#Contributing)
+* [Contributing](#contributing)
 * [Tests](#tests)
+* [Credits](#credits)
 * [Questions](#questions)
 * [License](#license)
 
 ## Description
 ${data.description}
+## Repository and demo
+* [README.md repository](https://github.com/GregNasir/readme-generator)
 ## Installation
 ${data.installation}
 ## Usage
@@ -94,11 +98,14 @@ ${data.usage}
 ${data.contributing}
 ## Tests
 ${data.tests}
+## Credits
+* Columbia Engineering Bootcamp resources
+* [w3schools website](https://w3schools.com/)
+* [shield.io](https://shields.io/)
 ## Questions
-* GitHub: ${data.github}(https://github.com/${data.github})
+* GitHub: (https://github.com/${data.github})
 * Email: ${data.email}
-## License
-*${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
 `;
 }
 
