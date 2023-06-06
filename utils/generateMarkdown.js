@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// function that returns a license badge based on which license is passed in
 // If there is no license, an empty string is returned
 function renderLicenseBadge(license) {
   console.log(license);
@@ -37,7 +37,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
+// function that returns the license section of README
 // If there is no license, an empty string is returned
 function renderLicenseSection(license) {
   console.log(license);
@@ -68,7 +68,7 @@ This project is licensed under the [GNU General Public License v3.0](https://www
   }
 }
 
-// Generatea markdown for README
+// Generates markdown for README
 function generateMarkdown(data) {
   // const { title, name, license, description, installation, usage, contributing, tests, github, email } = data;
 
