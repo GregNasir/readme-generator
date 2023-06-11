@@ -94,6 +94,7 @@ ${data.description}
 ${data.installation}
 ## Usage
 ${data.usage}
+* [![README-Placeholder](/assets/images/READEME-Placeholder.png 'README')]
 ## Contributing
 ${data.contributing}
 ## Tests

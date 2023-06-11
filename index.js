@@ -38,13 +38,13 @@ const questions = [
     },
     {
         type: "input",
-        name: "Contributing",
+        name: "contributing",
         message: "Who are the contributors to this project (GitHub usernames):",
-        default: "",
+
     },
     {
         type: "input",
-        name: "Tests",
+        name: "tests",
         message: "what tests were ran during development:",
     },
     {
@@ -73,7 +73,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((answers) => {
         console.log('Professional README');
-        writeToFile('README.md', generateMarkdown({...answers}));
+        writeToFile('./dist/README.md', generateMarkdown({...answers}));
     });
 }
 
